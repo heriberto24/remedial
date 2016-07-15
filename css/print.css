@@ -1,0 +1,33 @@
+/*.container{
+	visibility: hidden;
+}*/
+@media print {
+
+  @page{ 
+
+    margin: 0; 
+	
+  }
+
+
+}
+  article{
+  	margin: 0;
+  	padding: 0;
+  	border:0;
+  	box-shadow: none;
+  }
+body{
+	font-family: verdana;
+	
+}
+aside{
+	display: none;
+}
+a:after{
+	content: "("attr(href)")";
+}
+#menu
+{
+	display: none;
+}
